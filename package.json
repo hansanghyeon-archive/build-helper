@@ -1,0 +1,26 @@
+{
+    "name": "@imui/build-helper",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "NAVER Corp."
+    },
+    "license": "MIT",
+    "namespace": {
+        "eg": "eg"
+    },
+    "dependencies": {
+        "rollup": "^1.7.4",
+        "rollup-plugin-commonjs": "^9.3.4",
+        "rollup-plugin-node-resolve": "^4.0.1",
+        "rollup-plugin-prototype-minify": "^1.0.5",
+        "rollup-plugin-replace": "^2.1.1",
+        "rollup-plugin-typescript": "^1.0.1",
+        "rollup-plugin-uglify": "^6.0.2",
+        "rollup-plugin-visualizer": "^1.1.0"
+    }
+}
